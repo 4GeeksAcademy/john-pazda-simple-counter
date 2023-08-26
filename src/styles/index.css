@@ -1,12 +1,25 @@
 
-/* 
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 90%;
+    border: 1px solid black;
+    height: 300px;
+    background-color: grey;
+    color: white;
+    font-size: 75px;
+}
 
-    You can write your own styles here...
-    
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
-
-*/
+.one, .two, .three, .four, .five, .six, .clock {
+    border: 5px solid white;
+    border-radius: 5px;
+    box-sizing: border-box;
+    margin: 4px;
+    width: 15%;
+    height: 75%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
